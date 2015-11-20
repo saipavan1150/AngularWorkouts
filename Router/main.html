@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="samsung">
+<head>
+
+	  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+		  <script src="script.js"></script>
+		  </head>
+		  <body ng-controller="maincontroller">
+		  <header>
+		  <nav class="navbar navbar-default">
+		  <div class="container">
+		  <div class="navbar-header">
+		  <a class="navbar-brand" href="/">Angular routing example</a>
+		  
+	  </div>
+	  <ul class="nav navbar-nav navbar-right">
+	 
+	 <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+	  <li><a href="#about"><i class="fa fa-sh"></i> about</a></li>
+	   <li><a href="#contact"><i class="fa fa-ho"></i> contact</a></li>
+	   </ul>
+	   </div>
+	   </header>
+	   <div id="main">
+	  
+	  <div ng-view></div>
+	   
+	   
+	   
+	   </div>
+	   </body>
+	   </html>
+	   
